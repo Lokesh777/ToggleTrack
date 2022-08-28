@@ -1,0 +1,72 @@
+.LogInWholeSignupCompDiv{
+    width: 80%;
+    /* border: 1px solid red; */
+    background-color:#412a4c ;
+    margin-top: -1rem;
+    /* width: 100%;
+    border: 1px solid red;
+    background-color:#2c1338 ;
+    margin-top: -1rem; */
+}
+
+.LogInSignupCardMainBox{
+    margin-left: 25rem;
+
+}
+
+.LogInSignupCardMainBox > div{
+    margin-top: 3rem;
+    width: 70rem;height: 30rem;
+    /* background-color: #2c1338; */
+    /* border: 1px solid yellow; */
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+    /* background-color: #2c1338; */
+    padding-left: 2rem;
+}
+
+
+.LogInSignUpIcons{
+    text-align: center;
+    margin: 3rem 0 0 -1.5rem;
+    display: flex;
+    width: 31rem;
+   }
+   .LogInSignUpIcons >button{
+    font-size: 14px; margin-right: 2rem;
+    display: flex;background-color: aliceblue;
+    width: 11rem;height: 3rem;color: black;text-align: center;
+    border-radius: 30px; padding: .7rem 0 0 0.5rem;
+   }
+   .LogInSignUpIcons >button:hover{
+    background-color: rgb(252, 216, 222);
+    transform: scale(1.009);
+   }
+   .LogInSignUpIcons >button>img{
+      width: 1.2rem;
+      margin: 0 10px 0 2px;
+   }
+   .LogInForgetPass{
+    margin-left: 13rem;
+    text-decoration: underline;
+   }
+   .LogInForgetPass:hover{
+   color: blue;
+   }
+   .LogInLinkTosignUp{
+    text-align: center;
+    
+    margin: 0rem 0rem 3rem 0% ;
+   }
+   .LogInLinkTosignUpbtn{
+     width: 10rem;
+     height: 3rem;border-radius: 20px;
+     background-color: rgb(31, 36, 177);font-weight:700 ;
+     
+   }
+   .LogInLinkTosignUpbtn:hover{
+color: rgb(247, 245, 245);
+background-color: #14071a;
+transform: scale(1.009);
+
+   }

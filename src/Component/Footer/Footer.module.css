@@ -1,0 +1,49 @@
+.FooterBorder{
+    /* text-align: center; */
+  padding-bottom: 2rem;
+
+}
+.Foo_logoToggl{
+    margin-left: 2%;
+    font-size: 35px;
+    margin-bottom: 3%;
+}
+.Footrack{
+    font-weight:100;
+    margin-left: 6px;
+}
+.Footoggle{
+    font-weight: 900;
+    color: #e57cd8;
+}
+.Foo_DetailsVariety{
+    display: flex;
+    margin-left: -1%;
+       
+}
+.FooColunm{
+    margin-left: 5%;
+}
+.FooColunm >p{
+   font-size: 14px;
+   font-weight: 400;
+}
+.FooColunm >h2{
+   font-size: 15px;
+   font-weight: 600;
+   color: #a18992;
+   padding-bottom: 7%;
+}
+.Foo_Count{
+ border-radius: 20px;
+ background-color: #fff3ed;
+ color: black;
+ border: 1px solid black;
+ padding: 1px 8px 1px 8px;
+ font-weight: 900;
+}
+.Foo_Count:hover{
+ background-color: #530c54;
+ transform: scale(1.01);
+ color: whitesmoke;
+}

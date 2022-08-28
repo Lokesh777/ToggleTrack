@@ -1,0 +1,290 @@
+.mainHeadingLine{
+    /* font-size: 30px; */
+    font-weight: 600;
+    /* border: 1px solid red; */
+    margin-left: 2%;
+    margin-bottom: 5%;
+   
+}
+.mainHeadingLine>h1{
+    font-size: 55px;
+    word-spacing: 5px;
+    font-family: 'GT Haptik Medium Rotalic',sans-serif;
+}
+.signupTagline5Million{
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2rem;
+}
+.Landing_front_better{
+    color: rgb(216, 38, 216);
+   
+    /* font-style: italic; */
+   /* font-size: 40px; */
+}
+.signupButtonDiv{
+    display: flex;
+}
+.signupButtonDiv>input:hover{
+    background-color: rgb(91, 32, 91);
+  }
+.signupLogosDiv{
+    display: flex;
+    margin-left: 2rem;
+}
+.sgnUPTaglineBeforeLogo{
+    padding-top: 1rem;
+}
+.GooglelogoSIgn{
+    margin-left: 1rem;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border: 1px solid white;
+    padding: .7rem 0.7rem .7rem 0.7rem;
+    border-radius: 25px;
+    /* margin-bottom: 4rem; */
+}
+.GooglelogoSIgn:hover{
+    background-color:whitesmoke;
+    color: black;
+  }
+.GitHublogoSIgn{
+    margin-left: 0rem;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border: 1px solid white;
+    padding: .7rem 0.7rem .7rem 0.7rem;
+    border-radius: 25px;
+}
+.GitHublogoSIgn:hover{ 
+    background-color:whitesmoke;
+    color: black;
+}
+.signUpFormQuotes{
+    display: flex;
+}
+.signUpFormMainDiv{
+    width: 50%;
+}
+.SignupTermsService{
+    font-weight: lighter;
+    font-size: smaller;
+}
+.SignupTermsService>a{
+    text-decoration: underline 1px magenta;
+    
+}
+.TimerStandUp{
+    display: flex;
+    width: 450px;
+    height: 80px;
+    font-weight:600;
+    text-align: center;
+    background-color: #ffffff;
+    color: #938599;
+   padding-top: 2rem;
+  padding-left: 1rem;
+   border-radius: 10px;
+   margin-bottom: 3rem;
+}
+.TimerStandUp:hover{
+  transform: scale(1.009);
+  rotate: .5deg;
+  resize: vertical;
+}
+.TimestandupMeet{
+  margin-right: 8rem;
+}
+.TimeSquare{
+    margin:-0.3rem 0 0 2rem;
+    height: 30px;width: 30px;
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    color: aliceblue;
+    box-shadow: rgb(253, 27, 27) 0px 54px 55px, rgba(205, 48, 48, 0.12) 0px -12px 30px, rgba(251, 27, 27, 0.12) 0px 4px 6px, rgba(241, 28, 28, 0.17) 0px 12px 13px, rgba(210, 43, 43, 0.09) 0px -3px 5px;
+    background-color: orangered;
+}
+.TimerQuates{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 2rem;
+    line-height: 2rem;
+}
+.TimerQuatesWritter{
+    margin-left: 23rem;
+    font-weight: lighter;
+}
+.TimerHeighlighter{
+    color: rgb(216, 38, 216);
+}
+
+/* no credit card required  */
+.CardNocreditCard{
+    width: 80%;
+    height: 120px;
+    border: 1px solid white;
+    margin-left: 5%;
+}
+.investorsData{
+    margin-left: 10%;
+    margin-top: 3rem;
+}
+.startTrackingFree{
+    /* border: 1px solid red; */
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50%; height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.startTrackingFree>button{
+   background-color:rgb(248, 0, 248) ;
+   margin-right: 2rem;font-weight: 600;
+   height: 3rem;width: 14rem;border-radius: 20px;
+   
+}
+.btnInvestorCard{
+    padding-bottom: 5rem;
+}
+.startTrackingFree>button:hover{
+  background-color: rgb(81, 12, 81);
+  transform: scale(1.1);
+}
+.startTrackingFree>h3{
+    color:rgb(248, 0, 248);
+}
+.AdvertiseInvestor{
+   
+    background-color: #564260;
+    padding-top: 3rem;
+    padding-bottom: 3rem;padding-left: 3rem;
+    margin-left: -1.5rem;
+}
+.AdvertiseInvestor>img{
+    width: 90%;
+    /* background-color: #938599; */
+    padding-top: 5rem;
+}
+.everyTimeCardHeading{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 3rem;color: black;
+}
+em{
+    color:rgb(248, 0, 248);
+}
+.cardBackGround{
+  background-color: #fff3ed;
+  margin-left: -3rem;
+  padding: 7rem 2rem 5rem 3rem;
+}
+.cardForLandingPage{
+    display: flex;
+}
+.cardForLandingPage>div+div{
+   background-color: #fce5d8;
+}
+.everyTimeCard{
+    margin-left: 2.5%;
+    width: 45%;
+    height: 600px;
+    background-color: #fae5f7;
+
+}
+.everyTimeCard>h2{
+ color: magenta;padding-top: 2rem;
+margin-left: 2rem;margin-bottom: 1rem;
+}
+.everyTimeCard>h1{
+ color: black;margin-left: 2rem;
+ font-size: 27px;word-spacing: 3px;letter-spacing: 2px;
+ line-height: 2.5rem;
+}
+.everyTimeCard>button{ letter-spacing: 1px;
+background-color: rgb(217, 85, 217);color: white;
+width: 10rem; height: 3rem;border-radius: 25px;font-weight: 700;
+margin-left: 3rem;margin-top: 2rem;word-spacing: 3px;
+}
+.everyTimeCard>button:hover{
+background-color: #3b0c4f;transform: scale(1.09);
+}
+.everyTimeCard>img{
+margin: -2rem 0 0 9rem;
+}
+.everyTimeCard>b{
+color: black;
+margin-left: 2rem;
+
+}
+.everyTimeCard>a{
+color: rgb(40, 37, 37);
+font-weight: lighter;margin-left: 2rem;
+}
+em{
+    color:rgb(248, 0, 248);
+}
+/* video card */
+.VideoCard{
+    background-color: #fce5d8;
+    margin-left: -2rem;
+    padding-top: 5rem;
+}
+.VideoCard >div {
+  display: flex;
+
+}
+
+.VideoCard>div>div>h1{
+font-size: 42px;line-height: 3rem;letter-spacing: 4px;
+margin-bottom: 2rem;padding-top: 4rem;color: black;
+margin-left: 5rem;font-weight: 600;
+}
+.VideoCard>div>div>p{
+color: rgb(82, 82, 82);font-weight: lighter;
+margin-left: 5rem;
+}
+.VideoCard>div>span>img{
+ width: 30rem;
+ margin-left: 5rem;
+ 
+}
+.VideoCard>div>span>button{
+ width: 15.5rem;height: 3.2rem;
+ position: absolute;
+  top: 66.5%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(24, 3, 30, 0.834);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;font-weight: 600;
+  text-align: center;
+ /* background:url("https://www.youtube.com/watch?v=YyILWl6Z17k&t=8s"); */
+}
+.VideoCard>div>span>button:hover{
+    background-color: #8237a3;
+    cursor: e-resize;
+}
+.finalCardlanding{
+    padding-bottom: 7rem;
+}
+.finalCardlanding >div>img{
+    width: 10rem; height: 9rem;
+    margin-bottom: 1.5rem; margin-left: 5rem;
+}
+.finalCardlanding >div>h2{
+    margin-left: 5rem;
+    color: black;font-size: 20px;margin-bottom: .5rem;
+}
+.finalCardlanding >div>p{
+    color: rgb(48, 45, 45);
+
+}
