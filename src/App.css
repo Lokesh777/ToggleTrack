@@ -1,5 +1,5 @@
 .App{
-    width: 100%;
+    width: 100% !important;
     /* border: 1px solid rgb(222, 86, 36); */
     padding-top: 10px;
     

@@ -54,3 +54,8 @@
     margin-bottom: 1rem;
  
 }
+.tryFreeBtn:hover{
+   transform: scale(1.009);
+   background-color: #362e39;
+   color: aliceblue;
+}

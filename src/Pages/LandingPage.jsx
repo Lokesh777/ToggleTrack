@@ -81,6 +81,7 @@ export default function LandingPage(){
                         <FormControl isInvalid={isError}>
                         
                                 <Input
+                                       style={{border:"1px solid white", backgroundColor:"#2c1338"}}
                                     width={("60%")}
                                     type='email'
                                     value={input}
@@ -97,6 +98,7 @@ export default function LandingPage(){
 
                             <br />
                                 <Input
+                                   style={{border:"1px solid white", backgroundColor:"#2c1338"}}
                                 width={("60%")} 
                                 color={"white"}
                                     type='password'
@@ -109,8 +111,10 @@ export default function LandingPage(){
                                 <Input
                                 width={("35%")}
                                     type='submit'
+                                    color={"white"}
                                     bg={"#e57cd8"}borderRadius={"25px"}
                                     height={"45px"} fontWeight={"bold"}
+                                    style={{border:"1px solid white"}}
                                     // value={input}
                                     // onChange={handleInputChange}
                                     value="Sign up with Email"

@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import Footer from "../Component/Footer/Footer";
 import Navbar from "../Component/Navbar/Navbar";
+import { background } from "@chakra-ui/react";
 
 class Login extends Component {
   constructor(props) {
@@ -40,64 +41,76 @@ class Login extends Component {
                 <Navbar/>
             </div>
                 
-                <div className={styles.LogInSignupCardMainBox}>
-                  <div>
-                        <Container>
-                    <Row>
-                      <Col md="4">
-                       
-                    <div className={styles.LogInSignUpIcons}>
-                      <button><img src="https://cdn-icons-png.flaticon.com/512/2702/2702602.png" alt="Icon" /> <b>Log in via Google</b> </button>
-                      <button><img src="https://cdn-icons-png.flaticon.com/512/731/731985.png" alt="Icon" /> <b>Log in via Apple</b> </button>
+
+
+             <div className={styles.LogInSignupCardMainBox}>
+                    <div>
+                          <Container>
+                              <Row>
+                                <Col 
+                                 style={{paddingRight:"3rem"}}
+                                >
+                                
+                              <div className={styles.LogInSignUpIcons}>
+                                <button><img src="https://cdn-icons-png.flaticon.com/512/2702/2702602.png" alt="Icon" /> <b>Log in via Google</b> </button>
+                                <button><img src="https://cdn-icons-png.flaticon.com/512/731/731985.png" alt="Icon" /> <b>Log in via Apple</b> </button>
+                              </div>
+                              
+                              <br /> <br /><br />
+                                  <Form>
+                                    <Form.Group controlId="usernameId">
+                                      <Form.Label>Email</Form.Label>
+                                      <Form.Control
+                                       style={{border:"1px solid white", backgroundColor:"#2c1338",color:"white"}}
+                                        type="text"
+                                        name="username"
+                                        placeholder="Enter user name"
+                                        value={this.state.username}
+                                        onChange={this.onChange}
+                                      />
+                                      <FormControl.Feedback type="invalid"></FormControl.Feedback>
+                                    </Form.Group>
+                            <br />
+                                    <Form.Group controlId="passwordId">
+                                      <Form.Label>Password</Form.Label>
+                                      <Form.Control
+                                       style={{border:"1px solid white", backgroundColor:"#2c1338",color:"white"}}
+                                        type="password"
+                                        name="password"
+                                        placeholder="Enter password"
+                                        value={this.state.password}
+                                        onChange={this.onChange}
+                                      />
+                                      <Form.Control.Feedback type="invalid"></Form.Control.Feedback>
+                                    </Form.Group>
+                                    <br />
+                                  </Form>
+                                  <p className={styles.LogInForgetPass}>Forgot password?</p> <br />
+                                  <Button style={{width:"420px",
+                                  backgroundColor:"#e57cd8",
+                                  borderRadius:"20px",
+                                  marginLeft:"0rem",
+                                  
+                                  
+                                  }}
+                                   color="primary" onClick={this.onLoginClick}>Login</Button>
+                                  <br />  <br />
+                                
+                                </Col>
+                              </Row>
+                          </Container>
+
                     </div>
-                    
-                    <br /> <br /><br />
-                        <Form>
-                          <Form.Group controlId="usernameId">
-                            <Form.Label>Email</Form.Label>
-                            <Form.Control
-                              type="text"
-                              name="username"
-                              placeholder="Enter user name"
-                              value={this.state.username}
-                              onChange={this.onChange}
-                            />
-                            <FormControl.Feedback type="invalid"></FormControl.Feedback>
-                          </Form.Group>
-                  <br />
-                          <Form.Group controlId="passwordId">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control
-                              type="password"
-                              name="password"
-                              placeholder="Enter password"
-                              value={this.state.password}
-                              onChange={this.onChange}
-                            />
-                            <Form.Control.Feedback type="invalid"></Form.Control.Feedback>
-                          </Form.Group>
-                          <br />
-                        </Form>
-                         <p className={styles.LogInForgetPass}>Forgot password?</p>
-                        <Button color="primary" onClick={this.onLoginClick}>Login</Button>
-                        <br />  <br />
-                      
-                      </Col>
-                    </Row>
-                         </Container>
+             </div>
+                 <br /> <br />
 
-                  </div>
-
-                      
-                 
-                </div>
                   <div>
                       <p className={styles.LogInLinkTosignUp}>
                               Don't have an account? <br /> <br /> <Link to="/signup"> <button className={styles.LogInLinkTosignUpbtn}>Signup</button>   </Link>
                       </p>
                   </div>
 
-                          
+                          <br /> 
              <div>
                 <Footer/>
              </div>

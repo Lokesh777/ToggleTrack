@@ -37,12 +37,9 @@ class Signup extends Component {
     return (
       
       <div className={styles.WholeSignupCompDiv}>
-          {/* <div>
-            <Navbar/>
-          </div> */}
-            <h1 className={styles.toggle} onClick={()=>navigate("/")}>toggl 
-                 <span className={styles.track}>track</span> 
-            </h1>
+         
+         <a className={styles.toggle}  href="/">toggl<span className={styles.track}>track</span></a>
+
 
             <h1 className={styles.toggleHeadLine}>Sign up for a <em>free</em> Toggl Track account</h1>
 
@@ -69,6 +66,7 @@ class Signup extends Component {
                       <Form.Group controlId="usernameId">
                         <Form.Label>Email</Form.Label>
                         <Form.Control  
+                           style={{border:"1px solid white", backgroundColor:"#2c1338"}}
                           type="text"
                           name="username"
                           placeholder="Enter user name"
@@ -77,10 +75,11 @@ class Signup extends Component {
                         />
                         <FormControl.Feedback type="invalid"></FormControl.Feedback>
                       </Form.Group>
-
+                           <br />
                       <Form.Group controlId="passwordId">
                         <Form.Label>Password</Form.Label>
                         <Form.Control 
+                           style={{border:"1px solid white", backgroundColor:"#2c1338",color:"white"}}
                           type="password"
                           name="password"
                           placeholder="Enter password"
@@ -90,9 +89,15 @@ class Signup extends Component {
                         <Form.Control.Feedback type="invalid"></Form.Control.Feedback>
                       </Form.Group>
                     </Form>
-                   <br/>
+                   <br/> <br />
             
                     <Button 
+                    style={{width:"340px",
+                    backgroundColor:"#e57cd8",
+                    borderRadius:"20px",
+                    marginLeft:"0rem",
+                    
+                    }}
                      color="primary"
                      onClick={this.onSignupClick}  
                     >Sign up</Button>
