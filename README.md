@@ -18,9 +18,8 @@ External CSS
 
 
 ## Important Links 🔗 
-<a href="https://fascinating-gnome-6dd32e.netlify.app/">Deployed Netlify Link</a>
+<a href="https://toggltrack-gamma.vercel.app/">Deployed Netlify Link</a>
 <br>
-<a href="https://github.com/Lokesh777/temporary-partner-4254">Github Link</a>
 
 ## Features
 - Home Page.
