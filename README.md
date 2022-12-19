@@ -1,14 +1,14 @@
-# temporary-partner-4254
-Apna Mart- India Ki Apni Dukaan
-### Hi our Project Team Name is Apna Mart
 
-# APNA MART
-<img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1667281294_bLOCK_BUSTER_dEALS_1_Desktop.jpg" alt="apnamart" />
+# TOGGLE TRACK
+<img src="https://lh3.googleusercontent.com/KjxvPZDR5dGmMc9tZWnkg-1ht57xfvPR7PEEdA0zAkq6qbCaRSegzFKPDqhvjmc4Gh074R15ZlOZUnEJqJH6Ne0rstE9qTEcVIbJDaA5yNlB0SkiU6_u47LOBoJ8y2n_qXviQgsPGCoi7y9k_89dD1m3elvvAiezW9_Ptm_T4iiti4r33VXHviBWtg" alt="TOGGLE TRACK" />
 <hr>
- Jiomart - Choose and Buy Online Grocery from a wide range of fruits, vegetables, baby care products, personal care products and much more. Shop Now !
-<br>
-I worked on this project during unit-5 (Rct-201-NEM-101) construct week at Masai School with the help of other four members.
 
+Toggl Track is a time tracking app that allows you to track your daily activities across different platforms;
+<br/>
+providing you with detailed insights and an opportunity to optimize your workflow by identifying areas
+  <br/>
+ where you can improve.
+ 
 ## Using Languages & Tools 🧰
 React
 
@@ -16,8 +16,6 @@ Chakra-UI
 
 External CSS
 
-
-<img src="https://user-images.githubusercontent.com/101393657/208374550-2ff411d9-dbbc-4e4c-b3e6-d16dffd9c9e1.png" alt="apnamart" />
 
 ## Important Links 🔗 
 <a href="https://fascinating-gnome-6dd32e.netlify.app/">Deployed Netlify Link</a>
@@ -27,11 +25,10 @@ External CSS
 ## Features
 - Home Page.
 - Login/Signup page with working properly.
-- Product page show appending data.
-- Add to cart page successfully.
-- Checkout page  and payment done successfully. 
+- Landing page.
+- product page.
 
 ## Area of Responsibility
 
 - Integrated all the pages successfully.
-- Developed the Payment page,Cart Page , Login/Signup Page.
+- Developed the landing page,product Page , Login/Signup Page,and footer.
